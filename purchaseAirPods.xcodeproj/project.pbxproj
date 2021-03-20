@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		8371C1092605B13600CAEC36 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8371C1082605B13600CAEC36 /* AppDelegate.swift */; };
 		8371C10B2605B13600CAEC36 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8371C10A2605B13600CAEC36 /* SceneDelegate.swift */; };
-		8371C10D2605B13600CAEC36 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8371C10C2605B13600CAEC36 /* ViewController.swift */; };
 		8371C1102605B13600CAEC36 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8371C10E2605B13600CAEC36 /* Main.storyboard */; };
 		8371C1122605B13A00CAEC36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8371C1112605B13A00CAEC36 /* Assets.xcassets */; };
 		8371C1152605B13A00CAEC36 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8371C1132605B13A00CAEC36 /* LaunchScreen.storyboard */; };
+		8371C1222605C6A200CAEC36 /* AirPodsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8371C1212605C6A200CAEC36 /* AirPodsViewController.swift */; };
+		8371C12B2605D91700CAEC36 /* InputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8371C12A2605D91700CAEC36 /* InputViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8371C1052605B13600CAEC36 /* purchaseAirPods.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = purchaseAirPods.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8371C1082605B13600CAEC36 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8371C10A2605B13600CAEC36 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		8371C10C2605B13600CAEC36 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8371C10F2605B13600CAEC36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8371C1112605B13A00CAEC36 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8371C1142605B13A00CAEC36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8371C1162605B13A00CAEC36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8371C1212605C6A200CAEC36 /* AirPodsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirPodsViewController.swift; sourceTree = "<group>"; };
+		8371C12A2605D91700CAEC36 /* InputViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +60,9 @@
 			children = (
 				8371C1082605B13600CAEC36 /* AppDelegate.swift */,
 				8371C10A2605B13600CAEC36 /* SceneDelegate.swift */,
-				8371C10C2605B13600CAEC36 /* ViewController.swift */,
 				8371C10E2605B13600CAEC36 /* Main.storyboard */,
+				8371C12A2605D91700CAEC36 /* InputViewController.swift */,
+				8371C1212605C6A200CAEC36 /* AirPodsViewController.swift */,
 				8371C1112605B13A00CAEC36 /* Assets.xcassets */,
 				8371C1132605B13A00CAEC36 /* LaunchScreen.storyboard */,
 				8371C1162605B13A00CAEC36 /* Info.plist */,
@@ -137,9 +140,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8371C10D2605B13600CAEC36 /* ViewController.swift in Sources */,
 				8371C1092605B13600CAEC36 /* AppDelegate.swift in Sources */,
 				8371C10B2605B13600CAEC36 /* SceneDelegate.swift in Sources */,
+				8371C1222605C6A200CAEC36 /* AirPodsViewController.swift in Sources */,
+				8371C12B2605D91700CAEC36 /* InputViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
