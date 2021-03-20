@@ -52,7 +52,7 @@ class AirPodsViewController: UIViewController, saveDataDelegate {
       }
       
     
-      override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         
         // 如果 identifier 名字 = showAirPodsSegue
         if segue.identifier == "showAirPodsSegue" {
