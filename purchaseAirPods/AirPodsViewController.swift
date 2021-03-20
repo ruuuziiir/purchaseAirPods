@@ -45,15 +45,23 @@ class AirPodsViewController: UIViewController, saveDataDelegate {
 
     }
     
-    //
-      func replaceLabelName(inputLabelName: String) {
-          self.inputLabel.text = inputLabelName
+    // 定義 protocol 中的 func 內容
+    // 讓本頁的 input 內容等於 輸入內容
+    func replaceLabelName(inputLabelName: String) {
+        self.inputLabel.text = inputLabelName
       }
       
+    
       override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-          if segue.identifier == "showAirPodsSegue" {
-              let inputViewController: InputViewController = segue.destination as! InputViewController
-              inputViewController.delegate = self
+        
+        // 如果 identifier 名字 = showAirPodsSegue
+        if segue.identifier == "showAirPodsSegue" {
+            
+            // 設定目的地為 InputViewController
+            let inputViewController: InputViewController = segue.destination as! InputViewController
+            
+            // 讓「這個 View Controller」成為 inputViewController 的代理
+            inputViewController.delegate = self
           }
       }
 
