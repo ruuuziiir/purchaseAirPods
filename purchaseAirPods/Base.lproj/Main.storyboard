@@ -132,7 +132,6 @@
                                     <color key="titleColor" systemColor="labelColor"/>
                                 </state>
                                 <connections>
-                                    <action selector="addLabel:" destination="0DI-W7-91I" eventType="touchUpInside" id="T0t-f2-NdW"/>
                                     <segue destination="zlu-GM-nR8" kind="showDetail" identifier="showAirPodsSegue" id="MvW-af-Oh0"/>
                                 </connections>
                             </button>
